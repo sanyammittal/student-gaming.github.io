@@ -1,0 +1,173 @@
+@media screen and (max-width: 1150px) {
+    .header-ul {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+        margin-right: 50px;
+        line-height: 4rem;
+    }
+}
+
+@media screen and (max-width:840px) {
+    .sec1-content {
+        top: 10em;
+    }
+
+    .sec1 .p1,
+    .sec1 .p2 {
+        font-size: 3em;
+    }
+
+    .sec1-btn {
+        margin-left: 35%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .sec2 h1 {
+        font-size: 1.8rem;
+    }
+
+    .sec2 p {
+        font-size: 1.1rem;
+    }
+
+    .btn-1 {
+        padding: 5px 8px;
+        font-size: 1rem;
+    }
+
+    .sec2-img {
+        flex-direction: row;
+    }
+
+    .sec2 .img1,
+    .sec2 .img2,
+    .sec2 .img3 {
+        width: 100%;
+        height: 350px;
+        margin-bottom: 20px;
+    }
+
+    .sec3 h1 {
+        font-size: 3rem;
+    }
+
+    .sec3-content {
+        width: 90%;
+        display: block;
+    }
+
+    .sec3-ha {
+        font-size: 2.5rem;
+        padding: 0px 20px;
+    }
+
+    .sec3-hb {
+        font-size: 2rem;
+        padding-left: 30px;
+    }
+
+    .sec3 .p1 {
+        font-size: 1.2rem;
+        padding: 0px 30px 10px;
+    }
+
+    .sec3 .p2 {
+        font-size: 1.3rem;
+        padding: 20px 30px;
+    }
+
+    .sec3 .left {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .sec3 .right {
+        width: 100%;
+    }
+
+    .sec4 .img {
+        display: block;
+    }
+
+    .sec6-content {
+        display: block;
+    }
+
+    .sec1-content {
+        top: 7em;
+    }
+
+    footer .p1 {
+        padding-left: 3em;
+    }
+
+    footer .icons {
+        margin-left: 3em;
+    }
+
+    footer .p2 {
+        padding-left: 3em;
+    }
+
+    footer .i1 {
+        padding-left: 7em;
+    }
+
+    footer .p3 {
+        padding-left: 7em;
+    }
+
+    input[type="email"] {
+        margin-left: 5em;
+    }
+
+    input[type="submit"] {
+        margin-left: 7em;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .sec1-content {
+        top: 6em;
+    }
+
+    .sec1 .p1,
+    .sec1 .p2 {
+        font-size: 2rem;
+    }
+
+    .btn-1 {
+        padding: 1px 5px;
+    }
+
+    .sec1-btn {
+        margin-left: 40%;
+    }
+
+    .fa-heart {
+        display: none;
+    }
+
+    .sec2 .img1,
+    .sec2 .img2,
+    .sec2 .img3 {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .sec5 .p1,
+    .sec6 .right .p2 {
+        font-size: 1em;
+    }
+
+    .sec6 h1 {
+        font-size: 3em;
+        margin-bottom: -20px;
+    }
+}

@@ -1,0 +1,473 @@
+* {
+    font-family: 'Cabin', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Josefin+Sans&family=Mulish&family=Ubuntu&display=swap');
+
+body {
+    background-image: url("./images/most-popular-esports-games-670px.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    height: 4rem;
+    z-index: 10;
+}
+
+header .name {
+    font-size: 1.5em;
+    line-height: 4rem;
+    margin-left: 15px;
+    font-weight: 800;
+}
+
+.header-ul {
+    margin-right: 5rem;
+    line-height: 4em;
+}
+
+.header-li {
+    margin-left: 2rem;
+    font-size: 0.8em;
+    color: rgb(100, 99, 99);
+}
+
+.header-li:hover {
+    color: rgb(174, 172, 172);
+}
+
+.fa-bars {
+    font-size: 30px;
+}
+
+/* section-1 */
+
+video {
+    width: 100%;
+}
+
+.sec1-content {
+    position: absolute;
+    top: 15em;
+    width: 100%;
+}
+
+.sec1 .p1,
+.sec1 .p2 {
+    font-size: 5rem;
+}
+
+.sec1-btn {
+    margin: 20px 44%;
+}
+
+.fa-heart {
+    font-size: 20px;
+    margin-right: 10px;
+    color: red;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* section-2 */
+
+.sec2 {
+    margin-top: -5px;
+    width: 100%;
+}
+
+.sec2 h1 {
+    font-size: 2.5rem;
+    padding-top: 80px;
+}
+
+.sec2 p {
+    padding: 40px 100px 0px;
+    font-size: 1.5rem;
+    color: rgb(55, 54, 54);
+}
+
+.sec2-btn {
+    margin: 5% 40%;
+}
+
+.sec2-img {
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+.sec2 .img1 {
+    height: 200px;
+    width: 30%;
+    background-image: url("./images/pexels-soumil-kumar-735911_orig.jpg");
+    background-size: cover;
+}
+
+.sec2 .img2 {
+    height: 200px;
+    width: 30%;
+    background-image: url("./images/pexels-rodnae-productions-7915237_orig.jpg");
+    background-size: cover;
+}
+
+.sec2 .img3 {
+    height: 200px;
+    width: 30%;
+    background-image: url("./images/pexels-rodnae-productions-7915432_orig.jpg");
+    background-size: cover;
+}
+
+/* section-3 */
+
+.sec3 h1 {
+    font-size: 4.5rem;
+    padding: 80px 17% 20px;
+    color: rgb(55, 54, 54);
+}
+
+.sec3-content {
+    width: 80%;
+    margin: 20px auto;
+    flex-wrap: wrap;
+}
+
+.sec3 .right {
+    height: 450px;
+    background-image: url("./images/super-smash-bros-ultimate.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+}
+
+.sec3-ha {
+    font-size: 3.2em;
+}
+
+.sec3-hb {
+    font-size: 2.8em;
+    margin-top: 1em;
+}
+
+.sec3 .p1 {
+    font-size: 1.5em;
+    color: rgb(55, 54, 54);
+}
+
+.sec3 .p2 {
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+.sec3-btn {
+    margin: 30px 40%;
+}
+
+/* section-4 */
+
+.sec4 h1 {
+    font-size: 5em;
+    padding-top: 1.2em;
+    padding-bottom: 1em;
+}
+
+.sec4 .img {
+    width: 40%;
+    margin: auto;
+    padding-bottom: 3.5em;
+}
+
+.sec4 .img-1 {
+    width: 8em;
+    height: 8em;
+    background-image: url("./images/twitter\ \(1\).png");
+    background-size: contain;
+}
+
+.sec4 .img-2 {
+    width: 8em;
+    height: 8em;
+    background-image: url("./images/facebook.png");
+    background-size: contain;
+    margin-left: 10em;
+}
+
+/* section-5 */
+
+.sec5 {
+    width: 100%;
+    background-color: rgb(61, 61, 252);
+}
+
+.sec5 h1 {
+    font-size: 2.5em;
+    padding-top: 2.5em;
+}
+
+.sec5 .p1 {
+    font-size: 1.5em;
+    padding: 1.3em 10% 0px 10%;
+}
+
+.sec5-btn {
+    margin: 4em 37%;
+    border: 2px solid white;
+}
+
+/* section-6 */
+
+.sec6 h1 {
+    font-size: 4.5em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    color: rgb(55, 54, 54);
+
+}
+
+.left-bar {
+    width: 60%;
+    height: 18px;
+    margin-left: 10%;
+    background-color: rgb(228, 227, 227);
+    border-radius: 0px 9px 9px 0px;
+}
+
+.left-loading {
+    width: 15%;
+    height: 100%;
+    border-radius: 0px 9px 9px 0px;
+}
+
+.sec6 .goals {
+    margin-left: 13%;
+    width: 45%;
+    margin-top: 15px;
+    justify-content: space-between;
+    color: grey;
+}
+
+.sec6 .right .p2 {
+    font-size: 1.5em;
+    padding-right: 20%;
+    padding-left: 10%;
+    margin-top: 30px;
+}
+
+.sec6 .btn-1 {
+    background-color: rgb(36, 36, 255);
+    margin-top: 25px;
+    margin-left: 17%;
+}
+
+.sec6 .btn-2 {
+    background-color: rgb(20, 166, 245);
+    margin-left: 3%;
+}
+
+.sec6 .btn-3 {
+    background-color: rgb(0, 229, 255);
+    margin-left: 3%;
+    margin-bottom: 7em;
+}
+
+.sec6 .box {
+    width: 23em;
+    height: 33em;
+    justify-content: center;
+    border: 1px solid grey;
+    margin-top: 5em;
+}
+
+.sec6 .box-top {
+    height: 3.5em;
+}
+
+.sec6 .p1 {
+    font-size: 20px;
+    line-height: 3em;
+    padding-left: 20px;
+}
+
+.box-top-icons {
+    padding-left: 4em;
+}
+
+.sec6 .left .p2 {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+
+.box-in-box {
+    width: 50%;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid #41a2d8;
+}
+
+.sec6 .s1 {
+    font-size: 15px;
+    width: 50%;
+    height: 100%;
+    line-height: 40px;
+}
+
+.sec6 .s1 i {
+    font-size: 15px;
+    margin-right: 0px;
+}
+
+.sec6 .s2 {
+    font-size: 15px;
+    height: 100%;
+    width: 50%;
+    line-height: 40px;
+}
+
+.sec6 .amount {
+    width: 80%;
+    height: 60px;
+    margin: 30px auto;
+    justify-content: space-between;
+}
+
+.sec6 .s3 {
+    width: 30%;
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: gray;
+}
+
+.sec6 .amount p {
+    line-height: 60px;
+    font-size: 25px;
+}
+
+.sec6 .custom-amount {
+    left: 35px;
+    width: 80%;
+}
+
+.sec6 input[type="number"] {
+    height: 60px;
+    border: 1px solid gray;
+    padding-left: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.custom-amount i {
+    font-size: 1.5rem;
+    line-height: 60px;
+    left: 15px;
+    outline: none;
+    color: gray;
+}
+
+.sec6 input[type="checkbox"] {
+    margin: 80px 10px 0px 40px;
+    height: 20px;
+    width: 20px;
+}
+
+.sec6 .btn {
+    padding: 1em 4.5em;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.xyz {
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+/* footer */
+
+footer {
+    background-color: rgb(229, 227, 227);
+}
+
+footer .p1 {
+    padding-top: 2em;
+    padding-left: 7em;
+    font-size: 1.4em;
+}
+
+footer .icons {
+    margin-left: 7em;
+    margin-top: 1em;
+    font-size: 1.4em;
+
+}
+
+footer .p2 {
+    padding-top: 1em;
+    padding-left: 7em;
+    font-size: 1.4em;
+}
+
+footer .i1 {
+    font-size: 0.7em;
+    padding-left: 15em;
+    padding-top: 4em;
+}
+
+footer .p3 {
+    font-size: 0.7em;
+    padding-left: 15em;
+    padding-top: 1em;
+}
+
+input[type="email"] {
+    margin-left: 12em;
+    margin-top: 1em;
+    height: 30px;
+    width: 200px;
+}
+
+input[type="submit"] {
+    margin: 1em 0em 4em 12em;
+    padding: 1em 3em;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+/* js-html */
+
+.nav{
+    width: 100%;
+    height: 0vh;
+    top: 1px;
+    z-index: 15;
+    transition: all linear 1.5s;
+    overflow: hidden;
+    background-color: rgba(228, 227, 227,1);
+}
+.nav li{
+    height: 35px;
+    line-height: 35px;
+}
+.nav li:hover{
+    background-color: rgb(178, 174, 174);
+}
+.nav ul{
+    margin-top: 70px;
+}
+.cross{
+    font-size: 40px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 10px;
+}

@@ -1,0 +1,100 @@
+.img-sizing {
+    background-size: 100% 100%;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.flex {
+    display: flex;
+}
+
+.float-l {
+    float: left;
+}
+
+.float-r {
+    float: right;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.text-white {
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn-1 {
+    padding: 7px 20px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.flex-basis {
+    flex-basis: 50%;
+}
+
+.btn-2 {
+    padding: 3px 20px;
+    background-color: transparent;
+    font-size: 15px;
+    outline: none;
+}
+
+.btn-1:hover,
+.btn-2:hover,
+.btn-3:hover {
+    background-color: rgb(230, 229, 229);
+    color: black;
+}
+
+.bg-blue {
+    background-color: #41a2d8;
+}
+
+.social-btn {
+    padding: 2px 7px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.flex-center {
+    justify-content: center;
+}
+.invisible{
+    display: none;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.no-repeat{
+    background-repeat:no-repeat;
+}
+.fixed{
+    position: fixed;
+}

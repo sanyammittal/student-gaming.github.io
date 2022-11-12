@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/mario-removebg-preview.png">
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css" media="all">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="media.css">
+    <title>STUDENT GAMING</title>
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <header class="bg-white fixed">
+        <div class="name float-l pointer">STUDENT GAMING</div>
+        <div class="tags float-r">
+            <ul class="header-ul pointer">
+                <li class="inline-block header-li">HOME</li>
+                <li class="inline-block header-li">ABOUT</li>
+                <li class="inline-block header-li">DONATE</li>
+                <li class="inline-block header-li">EVENTS & TOURNAMENTS</li>
+                <li class="inline-block header-li">GAMING NEWS</li>
+                <li class="inline-block header-li">CONTACT</li>
+                <li class="inline-block header-li">MORE...</li>
+            </ul>
+            <i class="fa-solid fa-bars invisible pointer" onclick="nav()"></i>
+        </div>
+    </header>
+
+    <!-- section-1 -->
+
+    <section class="sec1">
+        <video autoplay loop>
+            <source src="./images/screenrec.mp4" type="video/mp4">
+        </video>
+        <div class="sec1-content">
+            <p class="p1 text-white center bold">Student Gaming</p>
+            <p class="p2 text-white center bold">Donate today</p>
+            <button class="sec1-btn btn-1 text-white pointer bg-blue">
+                <i class="fa-solid fa-heart"></i>
+                DONATE
+            </button>
+        </div>
+    </section>
+
+    <!-- section-2 -->
+
+    <section class="sec2 bg-white">
+        <h1 class="center bold">Welcome to Student Gaming</h1>
+        <p class="center">
+            The purpose of Student Gaming is to motivate students to achieve higher academic goals through
+            sportsmanship, character building, and academic activities, in the ever-growing world of esports.
+        </p>
+        <button class="btn-1 text-white sec2-btn pointer bg-blue">
+            <i class="fa-solid fa-heart"></i>
+            DONATE
+        </button>
+        <div class="sec2-img flex wrap">
+            <div class="img1 no-repeat"></div>
+            <div class="img2 no-repeat"></div>
+            <div class="img3 no-repeat"></div>
+        </div>
+    </section>
+
+    <!-- section-3 -->
+
+    <section class="sec3 bg-white">
+        <h1 class="bold">Upcoming Tournaments</h1>
+        <div class="sec3-content flex">
+            <div class="left flex-basis">
+                <h2 class="sec3-ha">Date: Dec. 11, 2021 @ 12 pm</h2>
+                <h2 class="sec3-hb">Sweet Escape</h2>
+                <p class="p1">
+                    13531 Will Clayton Pkwy #100, Humble, TX 77346
+                </p>
+                <p class="p2">
+                    This fall we are hosting a tournament in Humble, Texas. We are hosing a Super Smash Bros Tournament
+                    Please sign-up for our mailing list to get more information regarding tournament details and
+                    registration.
+                </p>
+            </div>
+            <div class="right flex-basis"></div>
+        </div>
+        <button class="sec3-btn btn-2 pointer">SIGN UP TODAY</button>
+    </section>
+
+    <!-- section-4 -->
+
+    <section class="sec4">
+        <h1 class="text-white bold center">Follow Us On Social Media</h1>
+        <div class="img flex">
+            <div class="img-1 no-repeat pointer"></div>
+            <div class="img-2 no-repeat pointer"></div>
+        </div>
+    </section>
+
+    <!-- section-5 -->
+
+    <section class="sec5">
+        <h1 class="center text-white">Benefits of ESports in High School</h1>
+        <p class="p1 center text-white">
+            Being on an esports team in high school brings a number of immediate and long-term benefits. Some are
+            similar to the benefits gained through participating in other high school sports and clubs; others are
+            unique to the expanding world of esports.
+        </p>
+        <p class="p1 center text-white">
+            If you attend an Houston or surrounding area High School, learn how you can join a team at your school
+        </p>
+        <button class="sec5-btn btn-2 text-white pointer">LEARN HOW YOU CAN JOIN</button>
+    </section>
+
+    <!-- section-6 -->
+
+    <section class="sec6 bg-white">
+        <h1 class="center">Donate Today</h1>
+        <div class="sec6-content flex">
+            <div class="left flex-basis flex flex-center">
+                <div class="box">
+                    <div class="box-top bg-blue">
+                        <p class="p1 inline-block text-white pointer">
+                            Choose amount
+                        </p>
+                        <div class="box-top-icons inline-block">
+                            <i class="fa-solid fa-lock text-white pointer"></i>
+                            <i class="fa-regular fa-circle text-white pointer"></i>
+                            <i class="fa-solid fa-circle text-white pointer"></i>
+                            <i class="fa-solid fa-circle text-white pointer"></i>
+                            <i class="fa-solid fa-arrow-right text-white pointer"></i>
+                        </div> 
+                    </div>
+                    <p class="p2 center">
+                        Your contributions help fulfill our funding goals.
+                    </p>
+                    <div class="box-in-box flex">
+                        <div class="s1 center bg-blue text-white pointer" id="onetime" onclick="onetime()">
+                            <i class="fa-solid fa-heart"></i>
+                            One-Time
+                        </div>
+                        <div class="s2 center pointer" id="monthly" onclick="monthly()">
+                            Monthly
+                        </div>
+                    </div>
+                    <div class="amount flex">
+                        <div class="s3 pointer center" id="box-1" onclick="amount1()">
+                            <p id="p1">$10</p>
+                        </div>
+                        <div class="s3 pointer center" id="box-2" onclick="amount2()">
+                            <p id="p2">$50</p>
+                        </div>
+                        <div class="s3 pointer center" id="box-3" onclick="amount3()">
+                            <p id="p3">$100</p>
+                        </div>
+                    </div>
+                    <div class="custom-amount relative">
+                        <input type="number" placeholder="CUSTOM NUMBER" class="absolute pointer" id="customamount" onclick="amount4()">
+                        <i class="fa-solid fa-dollar-sign absolute" id="i2"></i>
+                    </div>
+                    <input type="checkbox" class="pointer">
+                    Write us a comment
+                    <div class="xyz">
+                        <button class="btn bg-blue text-white pointer">
+                            NEXT
+                            <i class="fa-solid fa-arrow-right text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="right flex-basis">
+                <p class="p1">
+                    Click to set custom HTML
+                </p>
+                <div class="left-bar">
+                    <div class="left-loading bg-blue pointer"></div>
+                </div>
+                <div class="goals flex">
+                    <div class="box-1">
+                        <p class="box-p1 bold center">$834</p>
+                        <p class="box-p2 center">Raised</p>
+                    </div>
+                    <div class="box-2">
+                        <p class="box-p1 bold center">5</p>
+                        <p class="box-p2">Donations</p>
+                    </div>
+                    <div class="box-3">
+                        <p class="box-p1 bold center">$6,000</p>
+                        <p class="box-p2 center">Goals</p>
+                    </div>
+                </div>
+                <p class="p2">
+                    Gaming is an exciting and enriching experience. We work with local high schools to provide their
+                    students with opportunities to develop a competitive e-sports experience on their campus. In order
+                    to carry-out our mission we need funding to purchase gaming consoles (Nintendo Switch, & PS4, and a
+                    gaming laptop cart, and monitors)
+                </p>
+                <p class="p2">
+                    All Contributions go towards providing local E-Sports events around the greater Houston Area. Last
+                    year, 2021, your financial gifts allowed us to host several and open E-Sports events in diverse
+                    communities.
+                </p>
+                <button class="social-btn text-white pointer btn-1">FACEBOOK</button>
+                <button class="social-btn text-white pointer btn-2">LINKED IN</button>
+                <button class="social-btn text-white pointer btn-3">TWITTER</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+        <p class="p1 bold">Contact us</p>
+        <div class="icons">
+            <i class="fa-brands fa-meta pointer"></i>
+            <i class="fa-solid fa-folder-closed pointer"></i>
+        </div>
+        <p class="p2 bold">Subscribe today</p>
+        <i class="i1">* INDICATES REQUIRED FIELD</i>
+        <p class="p3">EMAIL *</p>
+        <input type="email" class="pointer">
+        <div>
+            <input type="submit" value="SUBMIT" class="pointer">
+        </div>
+    </footer>
+
+    <!-- js-html -->
+
+    <div class="nav fixed" id="navigation">
+        <div class="cross pointer">
+            <i class="fa-solid fa-xmark" onclick="hidenav()"></i>
+        </div>
+        <ul>
+            <li class="center pointer">HOME</li>
+            <li class="center pointer">ABOUT</li>
+            <li class="center pointer">DONATE</li>
+            <li class="center pointer">EVENTS & TOURNAMENTS</li>
+            <li class="center pointer">GAMING NEWS</li>
+            <li class="center pointer">CONTACT</li>
+            <li class="center pointer">GALLERY OF EVENT</li>
+            <li class="center pointer">SG BLOG</li>
+        </ul>
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
